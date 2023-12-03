@@ -1,0 +1,12 @@
+.cartWidgetContainer{
+    display: flex;
+    width: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.number{
+    font-weight: bold;
+    font-size: 1.3rem;
+}

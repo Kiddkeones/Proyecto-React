@@ -1,10 +1,15 @@
-import './App.css';
-import { Usuario } from './components/Usuario';
+//Componentes
+import { NavBarComponent } from './components/NavBarComponent/NavBarComponent';
+import { ItemListContainer } from './components/ItemListContainer/ItemListContainer';
+
+//Styles
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div>
-      <Usuario nombre="Alejo" edad={21} nacionalidad="Argentina"/>
+    <div style={{width: "100vw", height: "100vh"}}>
+      <NavBarComponent />
+      <ItemListContainer greeting="Bienvenidos a mi tienda" />
     </div>
   );
 }
